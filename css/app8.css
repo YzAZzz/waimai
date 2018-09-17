@@ -1,0 +1,93 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    width: 7.5rem;
+    /*height: .9rem;*/
+    background: #f67a9f;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+header .top{
+    height: .9rem;
+    width: 100%;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    padding-top: 0.15rem;
+}
+header .top span{
+    margin-left: 2.5rem;
+    text-align: center;
+    font-size: .4rem;
+    color: white;
+}
+header .top .one{
+    float: left;
+}
+main{
+    width: 7.5rem;
+    height: 12.5rem;
+    background: #f1efef;
+    margin-top: .9rem;
+    overflow: hidden;
+}
+main .list{
+    width: 6.27rem;
+    height: .85rem;
+    background: white;
+    border-radius: .42rem;
+    margin-top: .4rem;
+    margin-left: .6rem;
+    box-shadow: 0 .01rem 0.1rem 0.01rem rgba(246, 122, 159, .5);
+    display: flex;
+}
+main .last{
+    width: 6.27rem;
+    height: .85rem;
+    border-radius: .42rem;
+    background: #f67a9f;
+    margin-top: 1rem;
+    margin-left: .6rem;
+}
+main .last p{
+    text-align: center;
+    line-height: .85rem;
+    font-size: .4rem;
+    color: white;
+}
+main .list p{
+    display: block;
+    margin-left: .5rem;
+    line-height: .85rem;
+    font-size: .34rem;
+    color: #8d8d8d;
+}
+main .list input{
+    margin-left: .1rem;
+}
+main .list input:nth-child(2){
+    width: 2.6rem;
+}
+main .list span{
+    color: #f67a9f;
+    text-decoration: underline;
+    line-height: .85rem;
+}
+main .dang{
+    margin-left: 1.1rem;
+    margin-top: .2rem;
+}
+main span{
+    font-size: .3rem;
+    color: #f67a9f;
+}
+main img{
+    height: 4.09rem;
+    position: fixed;
+    bottom: 0;
+
+
+}

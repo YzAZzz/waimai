@@ -1,0 +1,110 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    /*height: .9rem;*/
+    background: #f67a9f;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+header .top{
+    height: .9rem;
+    width: 100%;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    padding-top: 0.15rem;
+}
+header .top span{
+    margin-left: 2rem;
+    text-align: center;
+    font-size: .4rem;
+    color: white;
+}
+header .top .one{
+    float: left;
+}
+header .top .two{
+    float: right;
+}
+main{
+    height: calc(100% - .9rem);
+    width: 100%;
+    margin-top: .9rem;
+    /*background: #0070c9;*/
+    padding-top: .22rem;
+}
+main .top{
+    width: 6.54rem;
+    height: 1.27rem;
+    background: #f67a9f;
+    margin: 0 auto;
+    border-radius: .15rem;
+    box-shadow: 0 0rem 0.3rem 0.03rem rgba(0, 0, 0, .2);
+
+}
+main .top .one{
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    background-image: url("../img/app6/yinghang.png");
+    background-size: cover;
+    margin-left: .2rem;
+    margin-top: .12rem;
+
+}
+main .top span{
+    display: block;
+    float: left;
+    margin-top: .25rem;
+    line-height: .35rem;
+    font-size: .24rem;
+    color: white;
+
+}
+main p{
+    font-size: .44rem;
+    color: red;
+    display: block;
+    float: left;
+    margin-top: .7rem;
+    margin-left: 1.8rem;
+    font-weight: bold;
+}
+main span{
+    font-size: .8rem;
+    /*width: 60%;*/
+    color: red;
+    display: block;
+    float: left;
+    margin-top: .36rem;
+    font-weight: bold;
+}
+main h4{
+    display: block;
+    margin-left: 2.2rem;
+    color: red;
+    float: left;
+    font-weight: bold;
+}
+main .conter{
+    height: .01rem;
+    width: 85%;
+    border: .01rem dashed #f67a9f;
+    margin-top: 2rem;
+    margin-left: 7.5%;
+
+}
+main h5{
+    text-align: center;
+    margin-top: .55rem;
+    color: #f67a9f;
+    font-size: .3rem;
+}
+main a img{
+    display: block;
+    margin: 2.2rem auto;
+}

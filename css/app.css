@@ -1,0 +1,226 @@
+header{
+    height: 0.9rem;
+    width: 100%;
+    background: #f67a9f;
+}
+header p{
+    font-size: 0.34rem;
+    float: left;
+    line-height: 0.9rem;
+    margin-left: 0.24rem;
+    color: white;
+}
+header input{
+    margin-left: 0.25rem;
+    margin-top: 0.2rem;
+    height: 0.5rem;
+    width: 5.33rem;
+    border-radius: 0.25rem;
+    outline: none;
+    padding-left: 0.25rem;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 0.24rem;
+}
+header img{
+    width: 0.45rem;
+    height: 0.45rem;
+    float: right;
+    margin-right: 0.24rem;
+    margin-top: 0.2rem;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    position: relative;
+}
+.banner .banner2{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    background:url("../img/banner.png");
+    background-size: cover;
+}
+.banner ul{
+    height: 0.1rem;
+    position: absolute;
+    left: 3.17rem;
+    bottom: 0.12rem;
+}
+.banner ul li{
+    width: 0.1rem;
+    height: 0.1rem;
+    float: left;
+    margin-right: 0.05rem;
+}
+.banner ul li .banner3{
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: white;
+    border-radius: 50%;
+
+}
+.banner ul li .banner3:nth-child(2){
+    background: #d5d5d5;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 0.29rem;
+}
+nav ul li{
+    display: flex;
+    /*width: 1.1rem;*/
+    /*height: 1.1rem;*/
+    /*background: #f67a9f;*/
+    flex-direction: column;
+    justify-content: center;
+}
+nav ul li h5{
+    text-align: center;
+    font-size: 0.24rem;
+}
+main{
+    width: 100%;
+    height: 3.5%;
+}
+main .top{
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+main .top .content{
+    margin-top: 0.3rem;
+}
+main .top .content img{
+    width: 100%;
+}
+main .bottom{
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.2rem;
+    height: 10rem;
+}
+main .bottom ul{
+    display: flex;
+    justify-content: space-between;
+}
+main .bottom ul .top{
+    width: 1.5rem;
+    height: 0.4rem;
+    font-size: .22rem;
+    border: 1px solid #f67a9f;
+    border-radius: .17rem;
+    color: #d1ccce;
+}
+main .bottom ul .top:nth-child(1){
+    color: #f67a9f;
+    font-weight: bold;
+}
+main .bottom .content2 .list{
+    height: 2.18rem;
+    width: 100%;
+    box-shadow: 0 0.02rem .1rem .02rem #f67a9f;
+    margin-top: .38rem;
+    padding-left: .26rem;
+}
+main .bottom .content2 .list .pic img{
+    width: 1.62rem;
+    height: 1.62rem;
+    float: left;
+    margin-top: .28rem;
+}
+main .bottom .content2 .list .con{
+    float: left;
+    width: 4.69rem;
+    padding-left: .2rem;
+}
+main .bottom .content2 .list .con h3{
+    width: 3.6rem;
+    font-size: .3rem;
+    color: black;
+    /*margin-left: .2rem;*/
+    margin-top: .28rem;
+    font-weight: bold;
+}
+main .bottom .content2 .list .con h6{
+    font-size: .24rem;
+}
+main .bottom .content2 .list .con .son{
+    display: flex;
+    justify-content: space-between;
+    width: 4.9rem;
+}
+main .bottom .content2 .list .con p{
+    color: #e7c922;
+    font-size: .2rem;
+}
+main .bottom .content2 .list .con span{
+    width: 3.57rem;
+    font-size: .2rem;
+    color: #d1ccce;
+}
+main .bottom .content2 .list .con h6{
+    color: #c4c2c3;
+    width: 3.3rem;
+}
+main .bottom .content2 .list .con h4{
+    line-height: .35rem;
+    font-size: 0.2rem;
+    color: #f67a9f;
+    width: .5rem;
+}
+main .bottom .content2 .list .con .son2 .list2{
+    border: .01rem solid #f67a9f;
+    width: 1.2rem;
+    height: .3rem;
+    float: left;
+    font-size: .2rem;
+    margin-right: .05rem;
+    color: #f67a9f;
+}
+main .bottom .content2 .list .con .son2 .list2:nth-child(3){
+    border: .01rem solid #7eb77e;
+    color: #7eb77e;
+}
+main .bottom .content2 .list:nth-child(2){
+    margin-top: .1rem;
+}
+main .bottom .content2 .list:nth-child(3){
+    margin-top: .1rem;
+}
+footer ul{
+    height: 1.3rem;
+    padding-left: .9rem;
+    padding-right: .9rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .25rem;
+}
+footer{
+    width: 100%;
+    height: 1.3rem;
+    background: white;
+    position: fixed;
+    bottom: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 3rem;
+}
+.swiper-container img{
+    width: 100%;
+    height: 3rem;
+}
+.swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #f67a9f;
+}

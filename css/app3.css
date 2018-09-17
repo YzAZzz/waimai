@@ -1,0 +1,232 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: .9rem;
+    background: #f67a9f;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+header .top{
+    height: .9rem;
+    width: 100%;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    padding-top: 0.15rem;
+}
+header .top .one{
+    float: left;
+}
+header .top .two{
+    float: right;
+}
+main{
+    width: 100%;
+    height: calc(100% - .9rem);
+    /*background: #7eb77e;*/
+    margin-top: .9rem;
+    padding-left: .24rem;
+    padding-right: .24rem;
+    padding-top: .24rem;
+    overflow: scroll;
+    padding-bottom: 1.25rem;
+}
+main .top{
+    border-radius: .2rem;
+    width: 100%;
+    height: 3.35rem;
+    background-image: url("../img/app3/pic1.png");
+    background-position: 0 -.6rem;
+    box-shadow: 0 .03rem 0.1rem 0.03rem rgba(246, 122, 159, .5);
+    position: relative;
+}
+main .top .list{
+    width: .66rem;
+    height: .3rem;
+    background: #f67a9f;
+    border-radius: .15rem;
+    position: absolute;
+    bottom: .14rem;
+    right: .17rem;
+    color: white;
+}
+main .conter .one{
+    height: 1.2rem;
+    width: 100%;
+}
+main .conter .one h3{
+    line-height: .7rem;
+    font-weight: bold;
+    font-size: .4rem;
+    margin-top: .1rem;
+}
+main .conter .one h5{
+    color: #bbbbbb;
+    font-size: .26rem;
+}
+main .conter .two{
+    height: .8rem;
+    width: 100%;
+}
+main .conter .two h1{
+    display: block;
+    float: left;
+    font-weight: bolder;
+    font-size: .6rem;
+    color: red;
+}
+main .conter .two span{
+    display: block;
+    float: left;
+    margin-top: .35rem;
+    color: red;
+}
+main .conter .two .shop{
+    height: .5rem;
+    width: 2.25rem;
+    background: #f67a9f;
+    border-radius: .25rem;
+    float: right;
+    margin-top: .2rem;
+}
+main .conter .two .shop p{
+    color: white;
+    font-size: .26rem;
+    text-align: center;
+    margin-top: .07rem;
+}
+main .conter .three{
+    height: 1.1rem;
+    width: 100%;
+}
+main .conter .three h3{
+    line-height: .7rem;
+    font-weight: bold;
+    font-size: .4rem;
+}
+main .conter .three h5{
+    color: #bbbbbb;
+    font-size: .26rem;
+}
+main .conter .four{
+    height: 1.6rem;
+    width: 100%;
+}
+main .conter .four h3{
+    margin-top: .2rem;
+    line-height: .7rem;
+    font-weight: bold;
+    font-size: .4rem;
+}
+main .conter .four h5{
+    line-height: .35rem;
+    font-size: .26rem;
+}
+main .bottom{
+    height: 7.26rem;
+    width: 100%;
+    /*overflow: scroll;*/
+}
+main .bottom .first h3{
+    margin-top: .2rem;
+    line-height: .7rem;
+    font-weight: bold;
+    font-size: .4rem;
+}
+main .bottom .second{
+    /*background: #7eb77e;*/
+    height: 6.7rem;
+    width: 100%;
+}
+main .bottom .second .list{
+    width: 3.45rem;
+    height: 3.7rem;
+    float: left;
+    margin-right: .1rem;
+    margin-bottom: .5rem;
+}
+main .bottom .second .list:nth-child(2){
+    margin-right: 0;
+}
+main .bottom .second .list:nth-child(4){
+    margin-right: 0;
+}
+main .bottom .second .list .pic{
+    width: 100%;
+    height: 2.66rem;
+    text-align: center;
+    border-radius: .3rem;
+    background-image: url("../img/app3/pic2.png");
+    box-shadow: 0 .03rem 0.1rem 0.03rem rgba(246, 122, 159, .5);
+}
+main .bottom .second h4{
+    font-weight: bold;
+    line-height: .7rem;
+    font-size: .35rem;
+}
+main .bottom .second h4 span{
+    font-size: .2rem;
+}
+
+main .bottom .second h5{
+    font-size: .35rem;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+
+
+
+
+footer{
+    height: 1.25rem;
+    width: 7.02rem;
+    /*background: white;*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    margin-left: .24rem;
+    margin-right: .24rem;
+    box-shadow: 0 0 0.1rem 0.01rem rgba(0, 0, 0, .3);
+
+
+}footer .left{
+    float: left;
+    height: 100%;
+    width: 4.65rem;
+    background: white;
+
+}
+footer .left span{
+    font-size: .24rem;
+    color: #5c5c5c;
+    display: block;
+    margin-left: 1rem;
+    margin-top: .33rem;
+}
+footer .right{
+    height: 100%;
+    width: 2.37rem;
+    background: #5d5d5d;
+    float: left;
+}
+footer .right p{
+    color: white;
+    font-size: .3rem;
+    display: block;
+    text-align: center;
+    margin-top: .42rem;
+}
+footer .png img{
+    position: fixed;
+    left: .3rem;
+    bottom: .8rem;
+}

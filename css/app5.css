@@ -1,0 +1,110 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    /*height: .9rem;*/
+    background: #f67a9f;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+header .top{
+    height: .9rem;
+    width: 100%;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    padding-top: 0.15rem;
+}
+header .top span{
+    margin-left: 2rem;
+    text-align: center;
+    font-size: .4rem;
+    color: white;
+}
+header .top .one{
+    float: left;
+}
+header .top .two{
+    float: right;
+}
+header .bottom{
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    height: 1.43rem;
+    width: 100%;
+    background: #f67a9f;
+    padding-top: .1rem;
+    padding-bottom: .15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .bottom h5{
+    margin-left: .16rem;
+    color: white;
+    font-size: .22rem;
+}
+header .bottom h3{
+    margin-left: .16rem;
+    font-weight: bold;
+    color: white;
+    font-size: .34rem;
+}
+header .bottom h4{
+    margin-left: .16rem;
+    color: white;
+    font-size: .24rem;
+}
+main{
+    width: 100%;
+    height: calc(100% - 2.33rem);
+    /*background: #0070c9;*/
+    margin-top: 2.33rem;
+    padding-top: .33rem;
+}
+main .big{
+    width: 90%;
+    height: 13rem;
+    /*ss*/
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    box-shadow: 0 0rem 0.3rem 0.03rem rgba(0, 0, 0, .2);
+    border-top: .11rem solid #f67a9f;
+    position: relative;
+}
+main .big img{
+    display: block;
+    margin: 0 auto;
+    margin-top: .6rem;
+    margin-bottom: 1.3rem;
+}
+main .content .big .alone{
+    margin-left: .33rem;
+    height: 0.1rem;
+    width: 90%;
+    border-top: 0.01rem dashed rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top:3.52rem;
+}
+
+main a{
+    display: block;
+    width: 6.08rem;
+    height: .68rem;
+    border-radius: .34rem;
+    background: #f67a9f;
+    position: fixed;
+    bottom: 0.4rem;
+    left: 0.72rem;
+    box-shadow: 0 0rem 0.3rem 0.03rem rgba(0, 0, 0, .2);
+}
+main a span{
+    display: block;
+    text-align: center;
+    margin-top: .1rem;
+    font-size: .35rem;
+    color: white;
+}

@@ -1,0 +1,62 @@
+header{
+    height: .4rem;
+    width: 7.5rem;
+    background: #f896b4;
+}
+main{
+    width: 100%;
+    height: 12.94rem;
+    background-image: url("../img/app9/under.png");
+    background-repeat: no-repeat;
+    padding-top: 5.86rem;
+    position: relative;
+}
+main .list{
+    width: 6.27rem;
+    height: .85rem;
+    background: white;
+    border-radius: .42rem;
+    margin-top: .4rem;
+    margin-left: .6rem;
+    display: flex;
+}
+main .list p{
+    display: block;
+    margin-left: .5rem;
+    line-height: .85rem;
+    font-size: .34rem;
+    color: #f67a9f;
+}
+main .list input{
+    margin-left: .1rem;
+}
+main .last{
+    width: 6.27rem;
+    height: .85rem;
+    border-radius: .42rem;
+    background: white;
+    margin-top: 1rem;
+    margin-left: .6rem;
+}
+main .last p{
+    text-align: center;
+    line-height: .85rem;
+    font-size: .4rem;
+    color: #f67a9f;
+}
+main .zhu{
+    height: .6rem;
+    width: 1rem;
+    background: white;
+    border-radius: .3rem;
+    position: fixed;
+    top:.2rem;
+    right: .2rem;
+    text-align: center;
+    line-height: .6rem;
+    font-size: .3rem;
+
+}
+main .zhu a{
+    color: #f67a9f;
+}
